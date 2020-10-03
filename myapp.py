@@ -39,10 +39,6 @@ while True:
     pyttsx3.speak("opening browser")
     print("opening  browser!")
     os.system("chrome")
-  elif("hello" in p or "hii" in p or "hey" in p or "hy" in p ):
-    pyttsx3.speak("Hello User") 
-  elif(("tell" in p and  "about" in p and "yourself" in p) or ("who" in p and "are" in p and "you" in p or "u" in p) ):
-    pyttsx3.speak("My name is jackiee, I am your virtual assistant ,and I am here to help you user")
   elif(("run" in p or "launch" in p or "open" in p or "execute" in p)and("media" in p or "player" in p or "song" in p)):
     pyttsx3.speak("opening media player")
     print("opening  media player!")
@@ -71,7 +67,7 @@ while True:
     pyttsx3.speak("opening Linkedin")
     print("opening Linkedin")
     os.system("chrome www.linkedin.com")
-  elif("facebook" in p ):
+  elif("facebook" in p or "fb" in p ):
     pyttsx3.speak("opening facebook")
     print("opening Facebook")
     os.system("chrome www.facebook.com")
@@ -130,6 +126,22 @@ while True:
     pyttsx3.speak("opening Amazon")
     print("opening Amazon")
     os.system("chrome www.amazon.com")
+  elif("myntra" in p ):
+    pyttsx3.speak("opening Myntra")
+    print("opening Myntra")
+    os.system("chrome www.myntra.com")
+  elif("snapdeal" in p ):
+    pyttsx3.speak("opening Snapdeal")
+    print("opening Snapdeal")
+    os.system("chrome www.snapdeal.com")
+  elif("paytm" in p ):
+    pyttsx3.speak("opening Paytm")
+    print("opening Paytm")
+    os.system("chrome www.paytm.com")
+  elif("mxplayer" in p or "mx player" in p ):
+    pyttsx3.speak("opening mxplayer")
+    print("opening MxPlayer")
+    os.system("chrome www.mxplayer.com")
   elif("flipkart" in p ):
     pyttsx3.speak("opening Flipkart")
     print("opening Flipkart")
@@ -147,7 +159,19 @@ while True:
     print("showing current time")
     os.system("time")
   elif("clear" in p and "screen" in p ):
-    os.system("cls") 
+    os.system("cls")
+  elif("vaaste" in p ):
+    pyttsx3.speak("Playing vaaste song") 
+    os.system("chrome https://youtu.be/BBAyRBTfsOU")
+  elif("dilbhar dilbhar " in p or "Dilbar Dilbar" in p ):
+    pyttsx3.speak("Playing Dilbar Dilbar song") 
+    os.system("chrome https://youtu.be/TRa9IMvccjg")
+  elif("tera yaar hu mai " in p ):
+    pyttsx3.speak("Playing tera yaar hu mai song") 
+    os.system("chrome https://youtu.be/9ooG-Cyd8ao")
+  elif("bapu zimadar" in p ):
+    pyttsx3.speak("Playing Bapu zimadar song") 
+    os.system("chrome https://youtu.be/kxrPO-WIbuM")
   elif("exit" in p or "stop" in p or "quit" in p or "bye" in p):
     pyttsx3.speak("We are closing the program !! Hope you like our service, have a nice day !!")
     os.system("exit()")
