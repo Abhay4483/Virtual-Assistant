@@ -141,7 +141,7 @@ while True:
   elif("mxplayer" in p or "mx player" in p ):
     pyttsx3.speak("opening mxplayer")
     print("opening MxPlayer")
-    os.system("chrome www.mxplayer.com")
+    os.system("chrome www.mxplayer.in")
   elif("flipkart" in p ):
     pyttsx3.speak("opening Flipkart")
     print("opening Flipkart")
